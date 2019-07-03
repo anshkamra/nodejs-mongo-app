@@ -1,0 +1,5 @@
+      apiVersion: ambassador/v1
+      kind: Mapping
+      name: nodejs_mapping
+      prefix: /
+      service: nodejs-internal-latest.default
