@@ -11,3 +11,4 @@ A Kubernetes Cluster
    * Create Ingress Controller for Cluster.
 3. kubectl apply -f nodejs-secret.yaml
 4. kubectl apply -f nodejs.yaml
+5. Deployment is ready, just add mapping in Ingress. Example is given in mapping.yaml
